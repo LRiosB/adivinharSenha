@@ -17,6 +17,10 @@
     border-radius: 25px;
 
     transition: 4s linear;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
