@@ -27,7 +27,7 @@ export function PreviousGameRow({gameInput, disabled=false, returnClickedFunctio
 
 export function CurrentGameRow({currentArray, returnClickedFunction=(index)=>{}, onButton=()=>{}}){
 
-    return <Row>
+    return <Row className="lastRow">
         <Col className="col1">
             <NumberArray arrayValues={currentArray} returnClickedFunction={returnClickedFunction}></NumberArray>
         </Col>
